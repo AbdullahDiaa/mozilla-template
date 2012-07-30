@@ -1,0 +1,495 @@
+body{
+	direction:rtl;
+	font-family: 'GESSTwoMedium';
+}
+h1 {
+	font-family: 'GESSTwoMedium';
+}
+h2 , h3{
+	font-family: 'UthmanTN1_Ver07';
+}
+.open-sans {
+    font-family: 'GESSTwoMedium','Open Sans', sans-serif;
+}
+.open-sans-light {
+    font-family: 'GESSTwoMedium', 'Open Sans Light', sans-serif;
+    font-weight: normal;
+}
+.clearfix {
+    zoom: 1;
+}
+.clearfix:after {
+    display: block;
+    visibility: hidden;
+    height: 0;
+    clear: both;
+    content: "."}
+.inline-block {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+}
+.border-box {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#main-feature {
+    text-align: center;
+}
+#main-feature h1 img {
+    vertical-align: baseline;
+    position: relative;
+    top: 5px;
+}
+#firefox-promo {
+    padding-top: 24px;
+    padding-bottom: 0;
+}
+#firefox-promo h3 {
+    float: right;
+    width: 220px;
+    margin: 0 10px;
+    position: relative;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: .2em;
+    letter-spacing: -1px;
+    white-space: nowrap;
+}
+#firefox-promo #firefox-promo-link {
+    position: absolute;
+    top: -10px;
+    right: 280px;
+}
+#firefox-promo ul.features {
+    float: right;
+    width: 300px;
+    margin: 0 10px;
+    width: 260px;
+    margin: 0 160px 0 0;
+}
+#firefox-promo ul.features li {
+    float: right;
+    list-style-type: none;
+    margin: 0;
+    width: 86px;
+    padding: 0;
+    text-align: center;
+}
+#firefox-promo ul.features li small {
+    display: block;
+    padding: 0 6px;
+    border-right: 1px dotted #d6d6d6;
+}
+#firefox-promo ul.features li:first-child small {
+    border: 0;
+}
+#firefox-promo .download-button {
+    float: right;
+    width: 300px;
+    margin: 0 10px;
+    width: 260px;
+    float: left;
+    margin-top: -6px;
+    margin-right: 10px;
+    padding-bottom: 6px;
+}
+#firefox-promo .download-button .download-link {
+    display: block;
+    text-align: center;
+}
+#firefox-promo .download-button ul {
+    margin: 0;
+}
+#firefox-promo .download-button small.download-other {
+    text-align: center;
+}
+#firefox-promo .download-button noscript h4, #firefox-promo .download-button .unsupported-download h4 {
+    font-size: 14px;
+}
+#firefox-promo .download-button-small .download-link {
+    margin-right: 0;
+}
+#firefox-promo .download-button-small .download-link .download-content {
+    background-image: none;
+    margin-right: 0;
+    padding-right: 24px;
+}
+#main-content li {
+    margin: 24px 0 0 0;
+    list-style-type: none;
+    border-bottom: 1px dotted #d6d6d6;
+    padding: 0 0 12px 0;
+}
+#main-content li p {
+    margin: 0;
+}
+#main-content li h4 {
+    margin: 0 0 6px 0;
+}
+#main-content li h4 a:after, #main-content li a h4:after {
+    content: " »";
+    font-family: 'Open Sans Light', sans-serif;
+    font-weight: normal;
+    font-weight: 300;
+}
+#home-news {
+    float: right;
+    width: 300px;
+    margin: 0 10px;
+    margin-bottom: 24px;
+}
+#home-news #all-news {
+    font-family: 'Open Sans', sans-serif;
+}
+#home-promo {
+    margin: 0 auto;
+}
+#home-promos {
+    float: right;
+    width: 300px;
+    margin: 0 10px;
+    margin-bottom: 24px;
+}
+#home-about {
+    float: right;
+    width: 300px;
+    margin: 0 10px;
+    margin-bottom: 24px;
+}
+#home-about ul {
+    margin-top: 24px;
+}
+#home-about li {
+    border: 0;
+    margin-top: 12px;
+    padding-bottom: 0;
+}
+#home-about a {
+    display: block;
+    padding-right: 80px;
+    padding-bottom: 12px;
+    background: url(../img/about-icons.png) 0 0 no-repeat;
+}
+#home-about a h4 {
+    color: #af3232;
+}
+#home-about a p {
+    color: #484848;
+    font-size: 14px;
+    line-height: 18px;
+}
+#home-about a:hover {
+    text-decoration: none;
+}
+#home-about a:hover h4 {
+    text-decoration: underline;
+}
+#about-volunteer a {
+    background-position: 0 0;
+}
+#about-volunteer a:hover, #about-volunteer a:focus {
+    background-position: -800px 0;
+}
+#about-work a {
+    background-position: 0 -150px;
+}
+#about-work a:hover, #about-work a:focus {
+    background-position: -800px -150px;
+}
+#about-work a:hover h4, #about-work a:focus h4 {
+    color: #f79100;
+}
+#about-find a {
+    background-position: 0 -300px;
+}
+#about-find a:hover, #about-find a:focus {
+    background-position: -800px -300px;
+}
+#about-find a:hover h4, #about-find a:focus h4 {
+    color: #1b66af;
+}
+#about-join a {
+    background-position: 0 -450px;
+}
+#about-join a:hover, #about-join a:focus {
+    background-position: -800px -450px;
+}
+#about-join a:hover h4, #about-join a:focus h4 {
+    color: #d65106;
+}
+#about-learn a {
+    background-position: 0 -600px;
+}
+#about-learn a:hover, #about-learn a:focus {
+    background-position: -800px -600px;
+}
+#about-learn a:hover h4, #about-learn a:focus h4 {
+    color: #669d28;
+}
+.no-js .pager-page {
+    margin-bottom: 24px;
+}
+.pager-page {
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    display: none;
+}
+.pager-page a {
+    display: block;
+    height: 265px;
+    padding: 0;
+    position: relative;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+}
+.pager-page a:hover, .pager-page a:active {
+    text-decoration: none;
+}
+.pager-page div {
+    float: right;
+    width: 300px;
+    margin: 0 10px;
+    margin-right: 0;
+    padding: 0 48px 24px 0;
+    position: relative;
+}
+.pager-page h3 {
+    padding-top: 48px;
+    margin-bottom: 24px;
+    font-size: 36px;
+    letter-spacing: -1px;
+    color: #fff;
+    text-shadow: none;
+}
+.pager-page h4 {
+    color: #fff;
+    text-shadow: none;
+}
+.pager-page p {
+    color: #fff;
+    text-shadow: none;
+    margin: 0;
+}
+.pager-page img {
+    display: block;
+    background: #333;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.default-page {
+    display: block;
+}
+.no-js .pager-tabs {
+    display: none;
+}
+.pager-tabs {
+    text-align: center;
+}
+.pager-tabs li {
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+}
+.pager-tabs li a {
+    color: rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    padding: 6px;
+}
+.pager-tabs li a:hover, .pager-tabs li a:active {
+    text-decoration: none;
+    color: #484848;
+}
+.pager-tabs li a.selected {
+    color: #484848;
+}
+#promo-android h3, #page-promo-android h3 {
+    font-size: 64px;
+    margin-bottom: 12px;
+}
+#promo-android h4, #page-promo-android h4 {
+    text-decoration: none;
+    text-shadow: none;
+    font-size: 28px;
+    float: none;
+    width: 50%;
+    margin-bottom: 24px;
+}
+#promo-android div, #page-promo-android div {
+    width: 60%}
+@media only screen and (min-width:760px) and (max-width:1000px) {
+    #firefox-promo {
+    padding-bottom: 12px;
+}
+#firefox-promo h3 {
+    float: right;
+    width: 400px;
+    margin: 0 10px;
+    white-space: normal;
+}
+#firefox-promo ul.features {
+    float: right;
+    width: 400px;
+    margin: 0 10px;
+    margin-bottom: 10px;
+}
+#firefox-promo ul.features li {
+    float: none;
+    width: auto;
+    margin: auto 24px auto auto;
+    list-style-type: disc;
+}
+#firefox-promo ul.features li small {
+    text-align: right;
+    border: 0;
+    padding: 0;
+}
+#firefox-promo ul.features li small br {
+    display: none;
+}
+#firefox-promo .download-button {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    margin-top: 10px;
+}
+.pager-page a {
+    height: 198px;
+}
+.pager-page div {
+    float: right;
+    width: 220px;
+    margin: 0 10px;
+}
+.pager-page h3 {
+    font-size: 26px;
+    letter-spacing: -1px;
+    padding-top: 24px;
+}
+#promo-android h3, #page-promo-android h3 {
+    font-size: 38px;
+    margin-bottom: 12px;
+}
+#promo-android h4, #page-promo-android h4 {
+    font-size: 20px;
+}
+#home-news, #home-promos, #home-about {
+    float: right;
+    width: 220px;
+    margin: 0 10px;
+}
+}@media only screen and (max-width:760px) {
+    #main-feature h1 {
+    text-align: right;
+    width: 174px;
+    margin-right: auto;
+    margin-left: auto;
+}
+#main-feature h1 img {
+    height: auto;
+    width: 100%;
+    top: -7px;
+    display: block;
+}
+.huge h1 {
+    font-size: 32px;
+}
+.huge h2 {
+    font-size: 22px;
+    letter-spacing: normal;
+    width: 190px;
+    margin-right: auto;
+    margin-left: auto;
+}
+#firefox-promo h3 {
+    float: none;
+    width: auto;
+    font-size: 28px;
+    margin: 0 100px auto auto;
+    min-height: 60px;
+    white-space: normal;
+}
+#firefox-promo #firefox-promo-link {
+    right: 20px;
+    top: 10px;
+    width: 80px;
+    height: auto;
+}
+#firefox-promo ul.features {
+    display: none;
+}
+#firefox-promo .download-button {
+    position: static;
+    margin: 12px 10px 0 10px;
+    width: 280px;
+}
+#firefox-promo .download-button .download-link {
+    text-align: center;
+    display: block;
+    margin-bottom: 6px;
+}
+.pager-page a {
+    width: auto;
+    height: auto;
+}
+.pager-page a img {
+    position: static;
+}
+.pager-page h3 {
+    font-size: 24px;
+    letter-spacing: -0.5px;
+    padding-top: 24px;
+}
+.pager-page div {
+    padding-right: 20px;
+    padding-left: 20px;
+    margin: 0;
+    background: #fff;
+    width: auto;
+    float: none;
+}
+.pager-page h4, .pager-page h3 {
+    margin-bottom: 8px;
+    color: #333;
+}
+.pager-page p {
+    color: #333;
+}
+.pager-tabs li a {
+    padding: 12px;
+    font-size: 28px;
+}
+#promo-android h3, #page-promo-android h3 {
+    font-size: 36px;
+}
+#promo-android h4, #page-promo-android h4 {
+    font-size: 20px;
+    width: auto;
+    margin-bottom: 12px;
+}
+#promo-android div, #page-promo-android div {
+    width: auto;
+}
+#home-news, #home-promos, #home-about {
+    width: 280px;
+}
+}@media only screen and (min-width:480px) and (max-width:760px) {
+    #firefox-promo {
+    padding-top: 10px;
+}
+#firefox-promo h3 {
+    margin-top: 25px;
+    min-height: 55px;
+}
+#firefox-promo .download-button {
+    width: 400px;
+}
+#home-news, #home-promos, #home-about {
+    width: 400px;
+}
+}
