@@ -1,0 +1,1 @@
+#Mozilla RTL Arabic template

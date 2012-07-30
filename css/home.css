@@ -168,7 +168,7 @@ h2 , h3{
 }
 #home-about a {
     display: block;
-    padding-right: 80px;
+    padding-left: 80px;
     padding-bottom: 12px;
     background: url(../img/about-icons.png) 0 0 no-repeat;
 }
